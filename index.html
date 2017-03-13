@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Hide or Reveal Tabs</title>
+    </head>
+    <body>
+        <section class="content">
+            <header>
+                <nav>
+                    <li>
+                        <button type="button" onclick="toggle(1)">Click Me</button>
+                    </li>
+                    <li>
+                        <button type="button" onclick="toggle(2)">Click Me</button>
+                    </li>
+                    <li>
+                        <button type="button" onclick="toggle(3)">Click Me</button>
+                    </li>
+                </nav>
+            </header>
+            <div>
+                <article id="first">
+                    <h3>Show First</h3>
+                    <p>First first first first first first first first first first first first first.</p>
+                </article>
+                <article id="second">
+                    <h3>Show Second</h3>
+                    <p>Second  second second second second second second second second second second second second.</p>
+                </article>
+                <article id="third">
+                    <h3>Show Third</h3>
+                    <p>Third third third third third third third third third third third third third.</p>
+                </article>
+                <article id="fourth">
+                  <h3>Show Fourth</h3>
+                  <p>fourth fourth fourth fourth fourth fourth fourth fourth fourth fourth fourth fourth fourth</p>
+                </article>
+            </div>
+        </section>
+        <div>
+          <button type="button" onclick="toggle(4)">Click Me</button>
+        </div>
+    </body>
+    <script src="reveal.js"></script>
+</html>
