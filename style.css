@@ -35,3 +35,13 @@ body{
 .content > div > article >p{
     margin: 0;
 }
+#mine > button{
+  background:linear-gradient(to left, lightgreen, lightblue);
+  margin-left:30%;
+}
+#fourth>p{
+  background:linear-gradient(to left, lightgreen, lightblue);
+}
+#fourth{
+  background:linear-gradient(to right, lightgreen, lightblue);
+}
